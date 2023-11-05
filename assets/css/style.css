@@ -38,6 +38,7 @@ body {
 
 main {
     margin: 1.5em 2em;
+    overflow: hidden;
 }
 
 main h1 {
