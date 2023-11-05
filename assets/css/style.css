@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: rgb(228, 233, 234);
+}
+
+.gradienteBlu {
+    background-color:rgb(26, 35, 48);
+}
+
+.gradienteGrigio {
+    background-color: rgb(41, 54, 71);
+}
+
+#linkNavigazione{
+    display: flex;
+    list-style-type: none;
+    padding: 0.6rem;
+    padding-left: 1.5em;
+}
+
+#linkNavigazione a {
+    text-decoration: none;
+    margin-right: 1em;
+    color: white;
+}
+
+#logo1 {
+    width: 7em;
+    margin-left: 1.5em;
+    padding: 0.4em 0
+}
+
+#logo2 {
+   width: 9em;
+   padding: 2.5em;
+}
+
+main {
+    margin: 1.5em 2em;
+}
+
+main h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+main a {
+    color: rgb(26, 102, 121);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 0.7em;
+    font-size: 0.8em;
+    
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    color: rgb(233, 220, 220);
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+}
+
+#bandaArancione {
+    background-color: rgb(235, 84, 14);
+    color: rgb(239, 229, 229);
+    text-align: center;
+    padding: 0.4em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#holidayGift {
+    background-image: url(/assets/images/bg-image.png);
+    background-size: contain;
+    padding: 4em 0;
+    text-align: center;
+    color: rgb(240, 229, 229);
+    font-weight: bold;
+}
+
+#quattroFoto{
+    background-color: white;
+    margin: 2em 0;
+    padding: 1em;
+}
+
+
+#riquadroFoto {
+    display: flex;
+    width: 100%;
+
+}
+
+.adattamentoFoto {
+    flex: 1;
+    padding-top: 0.5em;
+    padding-left: 1em;
+}
+
+.adattamentoFoto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.immagineSingola {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.immagineSingola img{
+    width: 100%;
+    margin-bottom: 0.3em;
+}
+
+body a:hover, nav a {
+    text-decoration: underline;
+    color: grey;
+}
+
+#linkNavigazione li a:hover {
+    text-decoration: underline;
+}
+
+.adattamentoFoto img:hover, .immagineSingola img:hover {
+    filter: brightness(0.6);
+}
